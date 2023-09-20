@@ -92,9 +92,17 @@
 		"compatibleRange": "^1.0.0 || ^2.0.0",
 		"dashboardPanels": [
 			{
-				"name": "sample",
-				"title": "sample",
-				"file": "sample.html",
+				"name": "modal",
+				"title": "modal",
+				"file": "modal.html",
+				"headerColor": "#00BEBE",
+				"width": 3,
+				"workspace": "0-sample"
+			},
+			{
+				"name": "scoreboard",
+				"title": "scoreboard",
+				"file": "scoreboard.html",
 				"headerColor": "#00BEBE",
 				"width": 3,
 				"workspace": "0-sample"
@@ -102,9 +110,14 @@
 		],
 		"graphics": [
 			{
-				"file": "sample.html",
+				"file": "modal.html",
 				"width": 1920,
-				"height": 1020
+				"height": 1080
+			},
+			{
+				"file": "scoreboard.html",
+				"width": 1920,
+				"height": 1080
 			}
 		]
 	}

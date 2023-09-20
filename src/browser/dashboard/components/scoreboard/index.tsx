@@ -4,6 +4,7 @@ import {BorderedBox} from "../lib/bordered-box";
 // import { useReplicant } from "../../../use-replicant";
 import { TextField } from "@mui/material";
 import { Button } from "@mui/material";
+import { Scoreboard } from "../../../../nodecg/generated";
 
 const Container = styled(BorderedBox)`
 	padding: 16px;
@@ -20,7 +21,8 @@ export const Sample: FC = () => {
 	const [score, setScore] = useState(0)
 
 	const updateScoreboard = (name: string, score: number) => {
-		nodecg.sendMessage("scoreboard:update", {name, score})
+		const data: Scoreboard = {name, score}
+		nodecg.sendMessage("scoreboard:update", data)
 	}
 
 
