@@ -16,7 +16,7 @@ const Container = styled(BorderedBox)`
 
 const ikuRep = nodecg.Replicant("iku")
 
-export const Modal: FC = () => {
+export const OMNTelop: FC = () => {
 	const iku = useReplicant("iku")
 
 	return (

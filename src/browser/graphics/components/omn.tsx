@@ -1,13 +1,23 @@
-// import {CSSProperties} from "react";
 import omnEgao from "../images/OMNegao.png";
 
-// export const OmnEgao = (props?: {style: CSSProperties}) => {
-export const OmnEgao = () => {
+type Props = {
+	width: number,
+	height: number,
+	left: string,
+	top: string
+}
+
+export const OmnEgao = (props: Props) => {
 	return (
 		<img
 			src={omnEgao}
-			width={500}
-			height={500}
+			width={props.width}
+			height={props.height}
+			style={{
+				position:"absolute",
+				left: props.left,
+				top: props.top
+			}}
 		></img>
 	);
 };

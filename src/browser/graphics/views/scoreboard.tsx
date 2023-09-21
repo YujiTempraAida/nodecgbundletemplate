@@ -9,11 +9,11 @@ const App = () => {
 
 	return (
 		<>
-			<BoldText>
-				{"name: " + scoreboardRep?.name}
+			<BoldText style={{fontSize: "64px"}}>
+				{"Name: " + scoreboardRep?.name}
 			</BoldText>
-			<BoldText>
-				{"score: " + scoreboardRep?.score}
+			<BoldText style={{fontSize: "64px"}}>
+				{"Score: " + scoreboardRep?.score}
 			</BoldText>
 		</>
 	);

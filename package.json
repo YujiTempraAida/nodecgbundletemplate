@@ -92,9 +92,9 @@
 		"compatibleRange": "^1.0.0 || ^2.0.0",
 		"dashboardPanels": [
 			{
-				"name": "modal",
-				"title": "modal",
-				"file": "modal.html",
+				"name": "omnTelop",
+				"title": "omnTelop",
+				"file": "omnTelop.html",
 				"headerColor": "#00BEBE",
 				"width": 3,
 				"workspace": "0-sample"
@@ -110,7 +110,7 @@
 		],
 		"graphics": [
 			{
-				"file": "modal.html",
+				"file": "omnTelop.html",
 				"width": 1920,
 				"height": 1080
 			},
