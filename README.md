@@ -1,6 +1,7 @@
 # NodeCG Bundle Template
 
 This is an unofficial [NodeCG](http://github.com/nodecg/nodecg) bundle template based on TypeScript, React, Vite originated from RTA in Japan Layouts.  
+This is a template repository. You can use this template by "Use This Template" feature.
 
 ## Local development
 
@@ -15,6 +16,7 @@ npm run dev
    1.  directory name
    2.  name in package.json
    3.  src/extension/nodecg.d.ts
+   4.  src/browser/glibal.d.ts
 2. write your schemas
 3. set your RaplicantMap in src/nodecg/replicants.d.ts
 4. develop as you like in src directory
