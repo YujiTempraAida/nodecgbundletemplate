@@ -1,0 +1,26 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema",
+
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"score0": {"type": "string"},
+		"score1": {"type": "string"},
+		"score2": {"type": "string"},
+		"score3": {"type": "string"},
+		"rank0": {"type": "number"},
+		"rank1": {"type": "number"},
+		"rank2": {"type": "number"},
+		"rank3": {"type": "number"}
+	},
+	"required": [
+		"score0",
+		"score1",
+		"score2",
+		"score3",
+		"rank0",
+		"rank1",
+		"rank2",
+		"rank3"
+	]
+}

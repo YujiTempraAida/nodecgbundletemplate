@@ -1,0 +1,13 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema",
+
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"isDone": {"type": "boolean"},
+		"isLeftPlayerWin": {"type": "boolean"},
+		"leftScore": {"type": "number"},
+		"rightScore": {"type": "number"}
+	},
+	"required": ["isDone", "isLeftPlayerWin", "leftScore", "rightScore"]
+}

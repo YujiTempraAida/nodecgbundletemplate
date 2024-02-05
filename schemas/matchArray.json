@@ -1,0 +1,11 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"type": "object",
+	"properties": {
+		"matches": {
+			"type": "array",
+			"items": {"$ref": "lib/match.json"}
+		}
+	},
+	"required": ["matches"]
+}

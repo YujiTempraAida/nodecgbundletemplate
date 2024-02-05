@@ -92,19 +92,11 @@
 		"compatibleRange": "^1.0.0 || ^2.0.0",
 		"dashboardPanels": [
 			{
-				"name": "omnTelop",
-				"title": "omnTelop",
-				"file": "omnTelop.html",
+				"name": "roundrobin",
+				"title": "roundrobin",
+				"file": "roundrobin.html",
 				"headerColor": "#00BEBE",
-				"width": 3,
-				"workspace": "0-sample"
-			},
-			{
-				"name": "scoreboard",
-				"title": "scoreboard",
-				"file": "scoreboard.html",
-				"headerColor": "#00BEBE",
-				"width": 3,
+				"width": 6,
 				"workspace": "0-sample"
 			}
 		],
@@ -116,6 +108,11 @@
 			},
 			{
 				"file": "scoreboard.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "roundrobin.html",
 				"width": 1920,
 				"height": 1080
 			}
